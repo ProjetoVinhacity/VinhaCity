@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Castoro:ital@1&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(37, 36, 36);
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 800px;
+  margin: auto;
+}
+
+.containerS {
+  width: 100%;
+  height: 1500px;
+}
+
+#menu {
+  width: 101%;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #252424;
+  margin-bottom: 0;
+}
+
+a {
+  border-right: 1px solid white;
+  padding-right: 30px;
+}
+
+#ctt {
+  border: none;
+}
+#menu ul li {
+  list-style: none;
+  display: inline;
+  padding: 4px;
+}
+
+#menu ul li a {
+  font-family: 'Castoro Titling', cursive;
+  font-size: 20px;
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-family: 'Castoro Titling', cursive;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  margin-top: 60px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Castoro Titling', cursive;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #8C2E43;
+  text-align: center;
+  line-height: 100px;
+  font-family: 'Castoro Titling', cursive;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.logo {
+  background-color: #c33452;
+  height: 80px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  border-radius: 30px;
+  width: 160px;
+  margin-top: -32px;
+}
+
+#botao {
+  font-family: 'Castoro Titling', cursive;
+  color: #000;
+  width: 200px;
+  height: 60px;
+  background-color: #ACBD19;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+#botao:hover{
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.733);
+}
+
+.formquiz {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: #252424;
+}
+.formquiz p{
+  width: 100%;
+  margin-left: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 8px; 
+  background-color: none; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ACBD19; 
+  border-radius: 10px; 
+}
+::-webkit-scrollbar-track {
+  background-color: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+}
+
+#menu button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+  margin: -25px 20px 20px 0;
+  color: #fff;border-radius: 50%;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+  padding: 2px;
+}
+
+#menu button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#menu button:focus {
+  outline: none;
+}
+
+.fa-sun,
+.fa-moon,
+.fa-palette {
+  color: #fff;
+}
+
+.content{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  margin-top: -347px;
+}
+
+.content img{
+  width: 100%;
+  z-index: 0;
+}
+
+.content h1,
+.content p{
+  z-index: 1;
+  position: relative;
+  top: -90%;
+  left: 67%;
+}
+
+.content h1{
+
+  font-size: 100px;
+
+}
+
+h3,
+h4,
+p {
+  font-family: 'Castoro', serif;
+  color: #fff;
+  font-size: 30px;
+  word-spacing: 5px;
+}
+.content2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news, .mapa {
+  margin-top: -150px;
+  margin-bottom: 100px;
+  width: 48%;
+  height: 300px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 30px;
+  overflow: none;
+}
+
+.news {
+  order: 2;
+}
+
+.mapa {
+  order: 1;
+}
+
+.news input,
+.news label,
+.news button{
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.news  input{
+  border: none;
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.news label{
+  margin-left: -245px;
+  font-family: 'Castoro', serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.news button{
+  font-family: 'Castoro Titling', cursive;
+    color: #000;
+    width: 200px;
+    height: 60px;
+    background-color: #ACBD19;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.news button:hover{
+  font-size: 23px;
+}
+
+.mapa label,
+.mapa button{
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.mapa label{
+  margin-left: -90px;
+  font-family: 'Castoro', serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.mapa button{
+  font-family: 'Castoro Titling', cursive;
+    color: #000;
+    width: 200px;
+    height: 60px;
+    background-color: #ACBD19;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.mapa button:hover{
+  font-size: 23px;
+}
+
+.content3{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.content3 p{
+  font-weight: 100 !important;
+}
+
+.content3 h3{
+  text-align: center;
+}
