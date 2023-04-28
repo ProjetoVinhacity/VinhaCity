@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
     <title>Home</title>
-  </head>
-
-  <body>
+</head>
+<body>
     <div class="container">
-      <nav id="menu">
-        <div class="logo">
-          <img src="./img/logo.png" alt="Vinhacity" />
+        <nav id="menu">
+            <div class="logo">
+              <img src="/img/logo.png" alt="Vinhacity" id="logo"/>
+            </div>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/pages/sobre.html">Sobre</a></li>
+              <li><a href="/pages/quiz.html">Quiz</a></li>
+              <li><a href="/pages/ctt.html" id="ctt">Contato</a></li>
+            </ul>
+            <div class="buttons">
+              <button id="btn-sol" onclick="background_color(1)"><i class="material-icons">wb_sunny</i></button>
+              <button id="btn-lua" onclick="background_color(2)"><i class="material-icons">brightness_2</i></button>
+              <button id="btn-invert" onclick="background_color(3)"><i class="material-icons">invert_colors</i></button>
+              
+            </div>
+          </nav>
         </div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./pages/sobre.html">Sobre</a></li>
-          <li><a href="./pages/quiz.html">Quiz</a></li>
-          <li><a href="./pages/ctt.html" id="ctt">Contato</a></li>
-        </ul>
-        <div class="buttons">
-          <button id="btn-sol" onclick="background_color(1)"><i class="material-icons">wb_sunny</i></button>
-          <button id="btn-lua" onclick="background_color(2)"><i class="material-icons">brightness_2</i></button>
-          <button id="btn-invert" onclick="background_color(3)"><i class="material-icons">invert_colors</i></button>
-          
+        <div class="content">
+            <img src="/img/banner.png">
+            <h1>Vinhacity</h1>
+            <p>O site de vinhos da maior cidade da america latina</p>
         </div>
-      </nav>
-
-      <div class="bemvindo">
-        <h1>Vinhacity</h1>
-        <h3>O site de vinhos que existe!</h3>
-      </div>
+        <div class="content2">
+            <div class="news">
+                <label for="letter">Assine agora e fique por dentro de tudo sobre vinho!</label><br><br><br><br>
+                <input type="text" id="letter" placeholder="EX.: seunome@mail.com" required><br><br><br>
+                <button type="submit">Inscrever-se</button>
+            </div>
+                
+            <div class="mapa">
+                <label for="letter">Venha nos visitar!</label><br><br><br><br>
+                <button href="https://goo.gl/maps/FncrYo28cSEn2Tbg6">Google Maps</button>
+            </div>
+        </div>
+    </div>
 
     <footer>@2023 - Todos os direitos reservados</footer>
 
-    <script src="./js/script.js"></script>
-    <script>alert("Seja bem vindo!")</script>
-  </body>
+    <script src="/js/script.js"></script>
+    <script>alert("Seja bem vindo !!!")</script>
+
+</body>
 </html>
